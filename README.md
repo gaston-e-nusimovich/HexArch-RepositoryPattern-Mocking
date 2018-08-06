@@ -1,0 +1,1 @@
+# HexArch-RepositoryPattern-Mocking
