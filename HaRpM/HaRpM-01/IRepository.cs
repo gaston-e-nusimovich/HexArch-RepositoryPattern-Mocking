@@ -5,7 +5,7 @@
 /// must be both a class and said class must implement the contract IEntity.
 /// </summary>
 /// <typeparam name="T"></typeparam>
-public interface IRepository<T> where T : class, IEntity
+public interface IRepository<T> where T : IEntity
 {
        T FindBy(int id);
        IList<T> FindAll();
